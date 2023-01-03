@@ -30,7 +30,7 @@ DESC
 
   s.metadata['rubygems_mfa_required'] = 'true' if s.respond_to?(:metadata)
 
-  s.add_runtime_dependency 'rspec',    '>= 3.0.0.a'
+  s.add_runtime_dependency 'rspec',    '>= 3'
   s.add_runtime_dependency 'nokogiri', '~> 1'
 
   # cucumber tests:
